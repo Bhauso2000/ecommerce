@@ -57,8 +57,8 @@ cd your-repo-name
 2. Install Dependencies
 
 npm install
+npm run dev
 
-3. Configure Environment Variables
 
  
 
