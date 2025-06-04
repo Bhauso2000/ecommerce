@@ -14,7 +14,6 @@ export default function ProductPage({
 }: {
   params: Promise<{ slug: string[] }>;
 }) {
-  // ✅ unwrap params using React's use() in client component
   const { slug } = use(params);
   const slugStr = slug.join("/");
 

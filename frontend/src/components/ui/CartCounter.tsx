@@ -20,7 +20,7 @@ const CartCounter = ({
   onAdd,
   onRemove,
   className,
-  initialValue = 0,
+  initialValue = 1,
   stock
 }: CartCounterProps) => {
   const [counter, setCounter] = useState<number>(initialValue);
